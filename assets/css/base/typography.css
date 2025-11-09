@@ -1,0 +1,5 @@
+body { font-family: var(--font-sans); color: var(--color-gris); background: var(--color-crema); }
+
+h1,h2 { font-family: var(--font-serif); color: var(--color-gris); }
+
+a { color: var(--color-arena); }
