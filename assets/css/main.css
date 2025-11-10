@@ -17,7 +17,6 @@
 @import url(layout/main-cuerpo.css);
 
 /* ==== Pages ==== */
-@import url(pages/home.css);
 @import url(pages/contacto.css);
 @import url(pages/portfolio.css);
 @import url(pages/presupuesto.css);
