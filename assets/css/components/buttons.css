@@ -1,0 +1,17 @@
+.btn {
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: var(--radius);
+    background-color: var(--color-durazno);
+    color: var(--color-black);
+    cursor: pointer;
+    font-weight: 600;
+    transition: all var(--transition);
+}
+
+.btn:hover {
+    background-color: var(--color-arena);
+}
+
+.btn-primary { background-color: var(--color-durazno); color: var(--color-black); }
+.btn-secondary { background-color: var(--color-arena); color: var(--color-black); }

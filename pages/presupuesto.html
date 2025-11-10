@@ -56,19 +56,19 @@
                 <form action="#" method="post" class="form">
                     <!-- Campo: Nombre -->
                     <label for="nombre">Nombre completo</label>
-                    <input type="text" id="nombre" name="nombre" required>
+                    <input type="text" id="nombre" name="nombre" maxlength="50" pattern="[A-Za-z\s]+" autocomplete="name" required>
 
                     <!-- Campo: Correo -->
                     <label for="email">Correo electrónico</label>
-                    <input type="email" id="email" name="email" required>
+                    <input type="email" id="email" name="email" autocomplete="email" maxlength="50" placeholder="example@gmail.com" required>
 
                     <!-- Campo: Teléfono -->
                     <label for="telefono">Teléfono</label>
-                    <input type="tel" id="telefono" name="telefono" required pattern="[0-9]{9,12}">
+                    <input type="tel" id="telefono" name="telefono" required pattern="[0-9]{9}" autocomplete="tel" placeholder="Ingrese su numero de teléfono">
 
                     <!-- Campo: Mensaje -->
                     <label for="mensaje">Solicita más información</label>
-                    <textarea id="mensaje" name="mensaje" rows="5" required></textarea>
+                    <textarea id="mensaje" name="mensaje" rows="5" maxlength="500" required></textarea>
 
                     <!-- Checkbox: Aceptación de privacidad -->
                     <div class="checkbox">
@@ -95,19 +95,19 @@
                 <!--Redes sociales y Contacto-->
                 <div class="social-links">
                     <a href="#" aria-label="Facebook de Creaciones Luz" title="Facebook">
-                        <img src="../assets/icons/facebook.png" alt="Facebook"> Facebook
+                        <img src="../assets/icons/facebook.png" alt="Facebook" width="512" height="512" /> Facebook
                     </a>
                     <a href="#" aria-label="Instagram de Creaciones Luz" title="Instagram">
-                        <img src="../assets/icons/instagram.png" alt="Instagram"> Instagram
+                        <img src="../assets/icons/instagram.png" alt="Instagram" width="512" height="512" /> Instagram
                     </a>
                     <a href="#" aria-label="Whatsapp de Creaciones Luz" title="Whatsapp">
-                        <img src="../assets/icons/whatsapp.png" alt="whatsapp"> WhatsApp
+                        <img src="../assets/icons/whatsapp.png" alt="whatsapp" width="512" height="512" /> WhatsApp
                     </a>
                     <a href="#" aria-label="Teléfono de Creaciones Luz" title="telefono">
-                        <img src="../assets/icons/telefono.png" alt="telefono">+34 642 698 457
+                        <img src="../assets/icons/telefono.png" alt="telefono" width="512" height="512" />+34 642 698 457
                     </a>
                     <a href="#" aria-label="Email de Creaciones Luz" title="email">
-                        <img src="../assets/icons/email.png" alt="email"> info@creacionesluz.com
+                        <img src="../assets/icons/email.png" alt="email" width="512" height="512" /> info@creacionesluz.com
                     </a>
                 </div>
             </div>

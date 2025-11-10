@@ -13,11 +13,11 @@
     margin: 0 0 var(--space) 0;
 }
 
-.contacto-info h1 {
+.contacto-info h2 {
     font-size: 2.2rem;
 }
 
-.contacto-info h2 {
+.contacto-info h3 {
     font-size: 1.4rem;
     margin-top: var(--space);
 }

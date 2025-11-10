@@ -1,5 +1,26 @@
-body { font-family: var(--font-sans); color: var(--color-gris); background: var(--color-crema); }
+body { 
+    font-family: var(--font-sans); 
+    color: var(--color-gris); 
+    background: var(--color-crema); 
+    line-height: 1.5;
+}
 
-h1,h2 { font-family: var(--font-serif); color: var(--color-gris); }
+h1, h2, h3, h4, h5, h6 { 
+    font-family: var(--font-serif); 
+    color: var(--color-gris); 
+    margin-bottom: var(--space-sm);
+}
 
-a { color: var(--color-arena); }
+p {
+    margin-bottom: var(--space);
+}
+
+a { 
+    color: var(--color-arena); 
+    text-decoration: none; 
+    transition: color var(--transition);
+}
+
+a:hover {
+    color: var(--color-durazno);
+}

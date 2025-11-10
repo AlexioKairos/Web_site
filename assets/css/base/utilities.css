@@ -1,0 +1,23 @@
+/* Espaciado */
+.mt-1 { margin-top: var(--space-xs); }
+.mt-2 { margin-top: var(--space-sm); }
+.mb-1 { margin-bottom: var(--space-xs); }
+.mb-2 { margin-bottom: var(--space-sm); }
+.p-1 { padding: var(--space-xs); }
+.p-2 { padding: var(--space-sm); }
+
+/* Display */
+.hidden { display: none; }
+.block { display: block; }
+.flex { display: flex; }
+.items-center { align-items: center; }
+.justify-between { justify-content: space-between; }
+
+/* Texto */
+.text-center { text-align: center; }
+.font-bold { font-weight: bold; }
+
+/* Colores de fondo y texto */
+.bg-primary { background-color: var(--color-durazno); color: var(--color-black); }
+.bg-secondary { background-color: var(--color-arena); color: var(--color-black); }
+.text-white { color: var(--color-blanco); }

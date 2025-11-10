@@ -48,8 +48,8 @@ input, textarea {
 
 .checkbox {
     display: flex;
-    align-items: center;
-    gap: 8px;
+    align-items: center;   /* Centra verticalmente checkbox y label */
+    gap: 8px;              /* Espacio entre checkbox y texto */
 }
 
 .btn-submit {
