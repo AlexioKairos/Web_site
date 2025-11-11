@@ -1,3 +1,28 @@
+body {
+    min-height: 100vh;
+    display: grid;
+    grid-template-areas: 
+    "header-area header-area header-area"
+    "main-area main-area main-area"
+    "footer-area footer-area footer-area";
+    grid-template-rows: 200px 1fr 120px;    
+}
+
+header {
+    grid-area: header-area;
+    background-color: var(--color-arena);
+}
+
+main {
+    grid-area: main-area;
+    background-color: var(--color-crema);
+}
+
+footer {
+    grid-area: footer-area;
+    background-color: var(--color-gris);
+}
+
 .container {
     display: grid;
     grid-template-columns: repeat(12, 1fr);
@@ -7,7 +32,7 @@
 .row {
     display: flex;
     flex-wrap: wrap;
-    margin: 0 -var(--space-xs);
+    margin: 0 var(--space-xs);
 }
 
 .col {
